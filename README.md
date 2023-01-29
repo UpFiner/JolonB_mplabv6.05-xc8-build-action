@@ -42,7 +42,7 @@ jobs:
       - name: Download the source code
         uses: actions/checkout@v1
       - name: Build
-        uses: jeandeaual/mplabx-xc8-build-action@v0.2.0
+        uses: JolonB/mplabv6.05-xc8-build-action@v0.2.0
         with:
           project: firmware.X
           configuration: default
@@ -50,4 +50,5 @@ jobs:
 
 # Acknowledgements
 
-Inspired by <https://github.com/velocitek/ghactions-mplabx>.
+Inspired by <https://github.com/velocitek/ghactions-mplabx>.  
+Forked from <https://github.com/jeandeaual/mplabx-xc8-build-action>.
